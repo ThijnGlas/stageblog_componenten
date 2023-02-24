@@ -1,0 +1,46 @@
+html{
+    font-size: 62.5%;
+}
+
+.card{
+    max-width: 775px;
+    max-height: 572px;
+    background-color: #3C6255;
+    color: #fff;
+}
+
+.card__description{
+    height: 250px;
+    width:775px;
+    margin: 30px;
+}
+
+.card__img{
+    height: 322px;
+    width: 775px;
+    width: auto;
+}
+
+.card__h3{
+    font-family: 'Koulen', cursive;
+    font-weight: 200;
+    width: 600px;
+    font-size: 3.2rem;
+    border-bottom: solid 1px #fff;
+}
+
+.card__p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    
+}
+
+.buttonweekoverzicht{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius:0px
+}
+
+.buttonprojecten{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius:0px
+}

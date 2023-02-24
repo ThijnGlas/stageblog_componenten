@@ -1,0 +1,192 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 138px;
+    margin-right: 138px;
+}
+
+h2{
+    font-family: 'Koulen', cursive;
+    font-size: 6rem;
+}
+
+html{
+    font-size: 61.5%;
+}
+
+.article__img{
+    max-width: 1077px;
+    max-height: auto;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.uitgelichtBericht{
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+h3{
+    font-family: 'Koulen', cursive;
+    font-weight: 200;
+    font-size: 3.2rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width: 125px;
+    height: 40px;
+    background: #6d8b74;
+    border-radius: 0.5rem;
+}
+
+h4{
+
+    font-family: 'Koulen', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 60px;
+
+}
+
+
+.article__tekst{
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}   
+
+article{
+    border-radius: 0.5rem;
+    width: 1644px;
+    min-height: 700px;
+    display: flex;
+    background-color: #3C6255;
+    color: #fff;
+}
+
+.button__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    background-color: #DDDDDD;
+    color: #000;
+    font-family: 'Koulen', cursive;
+    font-size: 2.4rem;
+}
+
+.button:hover{
+    background-color: hsl(0, 0%, 77%);
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: hsl(0, 0%, 67%);
+}
+
+
+
+.title__tag{
+    width: 1644;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.card__wrapper{
+    display: grid;
+    grid-template-columns: 775px 775px;
+    grid-template-rows: repeat(3, 572px);
+    grid-row-gap: 50px;
+    grid-column-gap: 94px;
+    margin-bottom: 120px;
+}
+
+.card{
+    max-width: 775px;
+    max-height: 572px;
+    background-color: #3C6255;
+    color: #fff;
+}
+
+.card__description{
+    height: 250px;
+    width:775px;
+    margin: 30px;
+}
+
+.card__img{
+    height: 322px;
+    width: 775px;
+    width: auto;
+}
+
+.card__h3{
+    font-family: 'Koulen', cursive;
+    font-weight: 200;
+    width: 600px;
+    font-size: 3.2rem;
+    border-bottom: solid 1px #fff;
+}
+
+.card__p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    
+}
+
+.buttonweekoverzicht{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius:0px;
+    border-right: solid 3px #000;
+}
+
+.buttonprojecten{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius:0px;
+    border-left: solid 3px #000;
+}
+
+.nummer__onder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 200;
+}
+
+.volgende__terug{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
